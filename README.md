@@ -20,9 +20,11 @@ We have the following C++ source files in the _src_ directory of the repository:
 ### particle_filter.cpp
 
 ### Output from the program
-The output of the program is monitored in the simulator screen. The screen shows the System Time since the simulation has started, the number of Time Steps, and the error for the state variables x, y and yaw.  
+The output of the program is monitored in the simulator screen. The screen shows the system time since the simulation has started, the number of time steps, and the error for the state variables x, y and yaw. The goal of the project is that the simulator run finishes within 100 seconds, and if it does and the errors are within the predefined range, the final screenshot from the run will look like the image below.  
 
 <img src="images/sim.png" width="700" alt="Simulator Screenshot" />
+ 
+ If the simulation runs out of time (for example because of too many particles used, which slows down the run), the message "You ran out of time" will appear on the screen after 100 seconds elapsed since the begining of the run. 
  
 ### How to run the program
 After cloning this repository, simply execute the following commands to build and run the program:
