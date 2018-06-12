@@ -20,9 +20,9 @@ We have the following C++ source files in the _src_ directory of the repository:
 ### particle_filter.cpp
 
 ### Output from the program
-The output of the program is monitored in the simulator screen. On the right hand side of that screen, we can monitor RMSE values for x, y, vx and vy, which are calculated and immediately displayed for each measurement in the program. If the UKF works correctly, we should see the RMSE values typically decreasing with each step. The following image shows the screenshot of the simulator at the end of the run. We observe the RMSE values to be **(0.0692, 0.0829, 0.3335, 0.2345)**, meaning that the goal of the project, as described above, is met. 
+The output of the program is monitored in the simulator screen. The screen shows the System Time since the simulation has started, the number of Time Steps, and the error for the state variables x, y and yaw.  
 
-<img src="images/simulator_screenshot.png" width="700" alt="Data File Screenshot" />
+<img src="images/sim.png" width="700" alt="Simulator Screenshot" />
  
 ### How to run the program
 After cloning this repository, simply execute the following commands to build and run the program:
